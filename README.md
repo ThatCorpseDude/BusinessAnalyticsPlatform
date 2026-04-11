@@ -1,34 +1,34 @@
-#AI Consulting Assistant (Free and Open Source)
-##Overview
+# AI Consulting Assistant (Free and Open Source)
+## Overview
 
 AI Consulting Assistant is a full-stack application that simulates real consulting workflows using AI-driven insights. It allows users to analyze business requirements, generate system architecture recommendations, and modernize legacy code using a fully free and open-source technology stack.
 
 This project demonstrates practical experience in application engineering, AI integration, and full-stack development.
 Please note that the title of the project does not accurately convey its purpose. This project initially used azure but I thought it would be more helpful to try it with a non-paid option
 
-##Features
+## Features
 
-###Requirements Analyzer
+### Requirements Analyzer
 
 Extracts functional and non-functional requirements from input text
 Identifies risks and assumptions
 
-###Architecture Recommender
+### Architecture Recommender
 
 Suggests cloud-native architectures
 Recommends backend, frontend, and database technologies
 
-###Code Migration Tool
+### Code Migration Tool
 
 Converts legacy code (e.g., Java, .NET) into Python
 Improves readability and structure
 
-###AI Copilot (Local)
+### AI Copilot (Local)
 
 Provides development assistance using a locally hosted language model
 Works without paid APIs or external dependencies
 
-###Tech Stack
+### Tech Stack
 
 Backend: FastAPI (Python) Frontend: Streamlit
 AI Engine: Ollama (Mistral or LLaMA3) 
@@ -36,7 +36,7 @@ Database: SQLite
 Vector Store: FAISS 
 Deployment: Render, Railway, or local environment
 
-###Project Structure
+### Project Structure
 ```
 BusinessAnalyticsPlatform/
 │
@@ -52,7 +52,7 @@ BusinessAnalyticsPlatform/
 ├── README.md
 └── .gitignore
 ```
-##Setup Instructions
+## Setup Instructions
 
 Clone the repository
 ```
